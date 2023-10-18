@@ -1,5 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#app {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.app__title {
+	padding: 40px;
+}
+
+.app__title-description {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	gap: 20px;
+}
+
+.card {
+	border: 2px solid black;
 }
