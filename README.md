@@ -1,6 +1,7 @@
 # Our Team
 
 ## DATI
+
 Wayne Barnett	Founder & CEO	        wayne-barnett-founder-ceo.jpg
 Angela Caroll	Chief Editor	        angela-caroll-chief-editor.jpg
 Walter Gordon	Office Manager	        walter-gordon-office-manager.jpg
