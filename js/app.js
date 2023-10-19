@@ -52,12 +52,15 @@ for (i = 0; i < team.length; i++) {
 	// - ottengo singolarmente gli elementi dell' array
 	const currentInformation = team[i];
 	console.log(currentInformation);
+    const nome = currentInformation.nome
+    const ruolo = currentInformation.ruolo
+    const foto = currentInformation.foto
 	// - creo una variabile information con ltre informazioni nome,ruolo,immaggine
-	informationTeamMember = `${currentInformation.nome} ${currentInformation.ruolo} ${currentInformation.foto}`;
+	const informationTeamMember = `${nome} ${ruolo} ${foto}`;
 	teamMemberAll += informationTeamMember;
 	// - stampo in console
 	console.log(informationTeamMember);
 	// stampo nel dom le stringhe con le informazioni dei singoli membri
-	containerElement.innerHTML += `<div class = "card> <figure class= "role-member">${currentInformation.foto}</figure> <div class= "information-member"><span>${currentInformation.nome}</span><span> ${currentInformation.ruolo}<span></div></div>`;
+	containerElement.innerHTML += `<div class = "card> <figure class= "role-member">${foto}</figure> <div class= "information-member"><span>${nome}</span><span> ${ruolo}<span></div></div>`;
 }
 console.log(teamMemberAll);
