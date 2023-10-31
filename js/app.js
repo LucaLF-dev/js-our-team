@@ -61,6 +61,6 @@ for (i = 0; i < team.length; i++) {
 	// - stampo in console
 	console.log(informationTeamMember);
 	// stampo nel dom le stringhe con le informazioni dei singoli membri
-	containerElement.innerHTML += `<div class = "card> <figure class= "role-member">${foto}</figure> <div class= "information-member"><span>${nome}</span><span> ${ruolo}<span></div></div>`;
+	containerElement.innerHTML += `<div class = "card"> <figure class= "role-member">${foto}</figure> <div class= "information-member"><span>${nome}</span><span> ${ruolo}<span></div></div>`;
 }
 console.log(teamMemberAll);
